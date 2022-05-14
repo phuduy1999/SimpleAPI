@@ -9,7 +9,7 @@ public class UnitTest1
     [Fact]
     public void GetReturnsMyName()
     {
-        var returnValue = controller.Get(1);
+        var returnValue = controller.Get(2);
         Assert.Equal("Les Jackson", returnValue.Value);
     }
 
